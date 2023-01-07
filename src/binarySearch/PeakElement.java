@@ -9,19 +9,17 @@ it is enough to look at its only one neighbour.
 
 return idx of the peak element
  */
-
-
-
 import java.util.*;
 public class PeakElement {
 	public static void main(String[] args) {
-		Scanner sc=new Scanner(System.in);
-		int n=sc.nextInt();
-		int []arr=new int[n];
-		for(int i=0;i<arr.length;i++) {
-			arr[i]=sc.nextInt();
-		}
-		System.out.println(Peak(arr));
+		  Scanner sc=new Scanner(System.in);
+		  int n=sc.nextInt();
+		  int []arr=new int[n];
+		  for(int i=0;i<arr.length;i++) {
+			  arr[i]=sc.nextInt();
+		  }
+		  System.out.println(Peak(arr));
+		  
 
 	}
 	public static int Peak(int []nums) {
